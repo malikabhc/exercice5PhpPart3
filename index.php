@@ -10,10 +10,15 @@
   <body>
     <p>
       <?php
-        while ($arrived < 15) {
+        while ($arrived <= 15) {
           $arrived++;
           echo 'On y arrive presque';
         }
+/*Autre possibilité boucle for
+          for ($arrived = 0; $arrived <= 15 ; $arrived++) {
+          echo 'On y arrive presque';
+          }
+*/        
       ?>
     </p>
   </body>
